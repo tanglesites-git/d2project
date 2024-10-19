@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\D2.ServiceDefaults\D2.ServiceDefaults.csproj" />
       <ProjectReference Include="..\Weapons.Application\Weapons.Application.csproj" />
       <ProjectReference Include="..\Weapons.Infrastructure\Weapons.Infrastructure.csproj" />
       <ProjectReference Include="..\Weapons.Kernal\Weapons.Kernal.csproj" />

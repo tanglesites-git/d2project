@@ -3,25 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weapons.Api", "src\Weapons.Api\Weapons.Api.csproj", "{06338BAE-CBAC-4574-AD7E-FEF911F132A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weapons.Api", "src\Weapons.Api\Weapons.Api.csproj", "{06338BAE-CBAC-4574-AD7E-FEF911F132A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weapons.Domain", "src\Weapons.Domain\Weapons.Domain.csproj", "{C8838ABA-91DE-44C2-85F4-3AC17F65DE0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weapons.Domain", "src\Weapons.Domain\Weapons.Domain.csproj", "{C8838ABA-91DE-44C2-85F4-3AC17F65DE0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weapons.Application", "src\Weapons.Application\Weapons.Application.csproj", "{0D3930E9-CEA6-4B05-A4C2-BD23BDF6475C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weapons.Application", "src\Weapons.Application\Weapons.Application.csproj", "{0D3930E9-CEA6-4B05-A4C2-BD23BDF6475C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weapons.Infrastructure", "src\Weapons.Infrastructure\Weapons.Infrastructure.csproj", "{944560CF-9C60-48D5-8753-277C37A607C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weapons.Infrastructure", "src\Weapons.Infrastructure\Weapons.Infrastructure.csproj", "{944560CF-9C60-48D5-8753-277C37A607C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weapons.Application.Tests", "tests\Weapons.Application.Tests\Weapons.Application.Tests.csproj", "{08B6ADE4-3D85-4934-8029-3EB2E808560B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weapons.Application.Tests", "tests\Weapons.Application.Tests\Weapons.Application.Tests.csproj", "{08B6ADE4-3D85-4934-8029-3EB2E808560B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weapons.Kernal", "src\Weapons.Kernal\Weapons.Kernal.csproj", "{564B9791-6FBB-4CE6-9EFF-E2F285318529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weapons.Kernal", "src\Weapons.Kernal\Weapons.Kernal.csproj", "{564B9791-6FBB-4CE6-9EFF-E2F285318529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D2.AppHost", "src\D2.AppHost\D2.AppHost.csproj", "{5A5B41CE-B142-48AC-B0E4-17F6BA4DAF5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D2.ServiceDefaults", "src\D2.ServiceDefaults\D2.ServiceDefaults.csproj", "{80AE6399-A7EF-4C19-8027-2B3ACB05A9D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{06338BAE-CBAC-4574-AD7E-FEF911F132A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,5 +49,19 @@ Global
 		{564B9791-6FBB-4CE6-9EFF-E2F285318529}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564B9791-6FBB-4CE6-9EFF-E2F285318529}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564B9791-6FBB-4CE6-9EFF-E2F285318529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5B41CE-B142-48AC-B0E4-17F6BA4DAF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5B41CE-B142-48AC-B0E4-17F6BA4DAF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5B41CE-B142-48AC-B0E4-17F6BA4DAF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5B41CE-B142-48AC-B0E4-17F6BA4DAF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AE6399-A7EF-4C19-8027-2B3ACB05A9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AE6399-A7EF-4C19-8027-2B3ACB05A9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AE6399-A7EF-4C19-8027-2B3ACB05A9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AE6399-A7EF-4C19-8027-2B3ACB05A9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5747FB76-5F75-40AB-A4D5-CD6F5EB34144}
 	EndGlobalSection
 EndGlobal
