@@ -4,6 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <UserSecretsId>6e4e1afd-e26b-48ce-ad1d-77248b6e6d88</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,10 +12,16 @@
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
       <PackageReference Include="LanguageExt.Core" Version="4.4.9" />
       <PackageReference Include="MediatR" Version="12.4.1" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="8.0.10" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Weapons.Domain\Weapons.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="CreateWeapon\Extensions\" />
     </ItemGroup>
 
 </Project>

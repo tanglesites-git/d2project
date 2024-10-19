@@ -4,10 +4,13 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>6e4e1afd-e26b-48ce-ad1d-77248b6e6d88</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Weapons.Application\Weapons.Application.csproj" />
+      <ProjectReference Include="..\Weapons.Infrastructure\Weapons.Infrastructure.csproj" />
+      <ProjectReference Include="..\Weapons.Kernal\Weapons.Kernal.csproj" />
     </ItemGroup>
 
 </Project>

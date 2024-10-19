@@ -36,3 +36,5 @@ The uniform interface is one of the core principles of REST, ensuring that the c
 ### `Code on Demand (Optional)`
    - This is an optional feature of REST where the server can temporarily extend or customize the client’s functionality by sending executable code (like JavaScript).
    - For example, the server could send client-side scripts for additional functionality or UI components, which can be executed on the client. This flexibility, though optional, allows for dynamic behavior on the client-side without needing constant updates or deployments.
+
+
