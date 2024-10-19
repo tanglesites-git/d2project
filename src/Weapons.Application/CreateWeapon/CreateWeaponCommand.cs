@@ -1,11 +1,9 @@
-﻿using MediatR;
-using Weapons.Domain.Weapon;
-using LanguageExt.Common;
+﻿using LanguageExt.Common;
+using MediatR;
 
+namespace Weapons.Application.CreateWeapon;
 
-namespace Weapons.Application.WeaponFeature;
-
-public record WeaponCommand : IRequest<Result<WeaponResponse>>
+public record CreateWeaponCommand : IRequest<Result<CreateWeaponResponse>>
 {
     public required long Hash { get; init; }
     public required string Name { get; init; }
@@ -17,7 +15,7 @@ public record WeaponCommand : IRequest<Result<WeaponResponse>>
     public required string TierType { get; init; }
     public required string AmmoType { get; init; }
     public string Source { get; init; } = null!;
-    public required string DamageTypeName { get; set; }
+    public required string DamageTypeName { get; init; }
     public required string DamageTypeDescription { get; init; } = null!;
     public required string DamageTypeIconUrl { get; init; } = null!;
     public required string DamageTypeTransparentIconUrl { get; init; } = null!;

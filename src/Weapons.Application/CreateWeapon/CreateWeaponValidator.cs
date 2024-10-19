@@ -1,10 +1,10 @@
 ﻿using FluentValidation;
 
-namespace Weapons.Application.WeaponFeature;
+namespace Weapons.Application.CreateWeapon;
 
-public class WeaponValidator : AbstractValidator<WeaponCommand>
+public class CreateWeaponValidator : AbstractValidator<CreateWeaponCommand>
 {
-    public WeaponValidator()
+    public CreateWeaponValidator()
     {
         ValidateName();
         ValidateAmmoType();

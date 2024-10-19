@@ -1,10 +1,9 @@
 ﻿using MediatR;
 
-namespace Weapons.Application.WeaponFeature;
+namespace Weapons.Application.CreateWeapon;
 
-public record WeaponResponse : IRequest
+public record CreateWeaponResponse : IRequest
 {
-    public required Guid Id { get; init; }
     public required long Hash { get; init; }
     public required string Name { get; init; }
     public required string IconUrl { get; init; }

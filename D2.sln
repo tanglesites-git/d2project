@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weapons.Infrastructure", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weapons.Application.Tests", "tests\Weapons.Application.Tests\Weapons.Application.Tests.csproj", "{08B6ADE4-3D85-4934-8029-3EB2E808560B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weapons.Kernal", "src\Weapons.Kernal\Weapons.Kernal.csproj", "{564B9791-6FBB-4CE6-9EFF-E2F285318529}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{08B6ADE4-3D85-4934-8029-3EB2E808560B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08B6ADE4-3D85-4934-8029-3EB2E808560B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08B6ADE4-3D85-4934-8029-3EB2E808560B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564B9791-6FBB-4CE6-9EFF-E2F285318529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564B9791-6FBB-4CE6-9EFF-E2F285318529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564B9791-6FBB-4CE6-9EFF-E2F285318529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564B9791-6FBB-4CE6-9EFF-E2F285318529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

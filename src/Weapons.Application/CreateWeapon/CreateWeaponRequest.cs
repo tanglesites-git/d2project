@@ -1,7 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using Weapons.Domain.Weapon;
-
-namespace Weapons.Application.WeaponFeature;
+﻿namespace Weapons.Application.CreateWeapon;
 
 public class CreateWeaponRequest
 {
